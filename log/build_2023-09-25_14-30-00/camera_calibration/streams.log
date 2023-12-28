@@ -1,0 +1,18 @@
+[2.047s] Invoking command in '/home/choi/marker_ws/build/camera_calibration': PYTHONPATH=/home/choi/marker_ws/build/camera_calibration/prefix_override:/home/choi/marker_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/camera_calibration/build --no-deps install_data
+[2.395s] running develop
+[2.589s] running egg_info
+[2.589s] writing src/camera_calibration.egg-info/PKG-INFO
+[2.589s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[2.589s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[2.590s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[2.590s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[2.593s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.594s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.630s] running build_ext
+[2.630s] Creating /home/choi/marker_ws/install/camera_calibration/lib/python3.8/site-packages/camera-calibration.egg-link (link to src)
+[2.631s] Installing cameracalibrator script to /home/choi/marker_ws/install/camera_calibration/lib/camera_calibration
+[2.631s] Installing cameracheck script to /home/choi/marker_ws/install/camera_calibration/lib/camera_calibration
+[2.631s] 
+[2.631s] Installed /home/choi/marker_ws/build/camera_calibration/src
+[2.631s] running install_data
+[3.304s] Invoked command in '/home/choi/marker_ws/build/camera_calibration' returned '0': PYTHONPATH=/home/choi/marker_ws/build/camera_calibration/prefix_override:/home/choi/marker_ws/install/camera_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/camera_calibration/build --no-deps install_data

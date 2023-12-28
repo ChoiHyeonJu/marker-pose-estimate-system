@@ -1,0 +1,63 @@
+[0.448s] Invoking command in '/home/choi/marker_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_rotate -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_rotate
+[0.864s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.865s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.865s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.994s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.998s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.503s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.507s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.928s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.440s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.462s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.465s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/image_pipeline-foxy/image_rotate/include
+[2.466s] -- Configured cppcheck exclude dirs and/or files: 
+[2.467s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.468s] -- Configured cpplint exclude dirs and/or files: 
+[2.468s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.469s] -- Added test 'lint_cmake' to check CMake code style
+[2.470s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.472s] -- Added test 'uncrustify' to check C / C++ code style
+[2.472s] -- Configured uncrustify additional arguments: 
+[2.473s] -- Added test 'xmllint' to check XML markup files
+[2.477s] -- Configuring done (2.0s)
+[2.568s] -- Generating done (0.1s)
+[2.573s] -- Build files have been written to: /home/choi/marker_ws/build/image_rotate
+[2.599s] Invoked command in '/home/choi/marker_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_rotate -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_rotate
+[2.600s] Invoking command in '/home/choi/marker_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_rotate -- -j12 -l12
+[3.293s] [ 25%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[3.293s] [ 50%] Built target image_rotate
+[3.293s] [ 75%] [32m[1mLinking CXX executable image_rotate[0m
+[3.964s] [100%] Built target image_rotate_bin
+[4.348s] Invoked command in '/home/choi/marker_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_rotate -- -j12 -l12
+[4.772s] Invoking command in '/home/choi/marker_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_rotate
+[4.836s] -- Install configuration: ""
+[4.836s] -- Execute custom install script
+[4.836s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[4.836s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/include/image_rotate/visibility.h
+[4.855s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[4.877s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[4.891s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/lib/libimage_rotate.so
+[4.896s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/lib/image_rotate/image_rotate
+[4.901s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[4.911s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[4.926s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[4.939s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[4.958s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[4.964s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[4.971s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[4.976s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[4.991s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[5.014s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[5.020s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[5.031s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/package.dsv
+[5.051s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[5.074s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[5.111s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.116s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.121s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[5.130s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[5.158s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[5.185s] -- Symlinking: /home/choi/marker_ws/install/image_rotate/share/image_rotate/package.xml
+[5.212s] Invoked command in '/home/choi/marker_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_rotate

@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/choi/marker_ws/install/ros2_aruco_interfaces/include/**",
+        "/home/choi/marker_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/choi/marker_ws/install/dynamixel_sdk/include/**",
+        "/home/choi/robot_ws/install/v4l2_camera/include/**",
+        "/home/choi/robot_ws/install/usb_cam/include/**",
+        "/home/choi/robot_ws/install/ros2_aruco_interfaces/include/**",
+        "/home/choi/robot_ws/install/jlb_pid/include/**",
+        "/home/choi/robot_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/choi/robot_ws/install/dynamixel_sdk/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/choi/marker_ws/src/DynamixelSDK/dynamixel_sdk/include/**",
+        "/home/choi/marker_ws/src/DynamixelSDK/dynamixel_sdk_examples/include/**",
+        "/home/choi/marker_ws/src/marker_arm/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

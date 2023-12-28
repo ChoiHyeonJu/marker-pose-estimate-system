@@ -1,0 +1,76 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/choi/marker_ws/src/marker_arm/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/choi/marker_ws/build/marker_arm
+[ 25%] [32m[1mLinking CXX executable marker_arm_control_node[0m
+[ 50%] [32m[1mLinking CXX executable marker_arm_perception_node[0m
+[ 75%] Built target marker_arm_control_node
+[100%] Built target marker_arm_perception_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/lib/marker_arm/marker_arm_control_node
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/lib/marker_arm/marker_arm_perception_node
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/launch/fix_bringup.launch.py
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/launch/marker_nav2.launch.py
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/launch/mov_bringup.launch.py
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/urdf/marker_fix.total_station.xacro
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/urdf/marker_fix.urdf.xacro
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/urdf/marker_mov.urdf.xacro
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/arducam_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/arducamera_info.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/fix_aruco_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/fix_cam_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/fix_camera_info.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/fix_control_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/fix_perception_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/localization.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/mov_aruco_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/mov_cam_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/mov_camera_info.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/mov_control_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/mov_perception_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/params/nav2_params.yaml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/rviz/nav2_default_view.rviz
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/bt/pure_bt.xml
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/ament_index/resource_index/package_run_dependencies/marker_arm
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/ament_index/resource_index/parent_prefix_path/marker_arm
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/environment/ament_prefix_path.sh
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/environment/ament_prefix_path.dsv
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/environment/path.sh
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/environment/path.dsv
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/local_setup.bash
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/local_setup.sh
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/local_setup.zsh
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/local_setup.dsv
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/package.dsv
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/ament_index/resource_index/packages/marker_arm
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/cmake/marker_armConfig.cmake
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/cmake/marker_armConfig-version.cmake
+-- Symlinking: /home/choi/marker_ws/install/marker_arm/share/marker_arm/package.xml

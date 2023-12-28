@@ -1,0 +1,9 @@
+mov_aruco_node:
+  ros__parameters:
+    marker_size: 0.1  # in meters
+    min_dist: 0.15
+    max_dist: 4.0
+    aruco_dictionary_id: "DICT_4X4_100"
+    image_topic: "/mov_cam_node/image_raw" # image_mono, image_rect
+    camera_info_topic: "/mov_cam_node/camera_info"
+    # img_show: True

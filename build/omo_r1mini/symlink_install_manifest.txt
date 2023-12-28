@@ -1,0 +1,15 @@
+/home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/package_run_dependencies/omo_r1mini
+/home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/parent_prefix_path/omo_r1mini
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.sh
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.dsv
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/path.sh
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/path.dsv
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.bash
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.sh
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.zsh
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.dsv
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/package.dsv
+/home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/packages/omo_r1mini
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig.cmake
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig-version.cmake
+/home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/package.xml

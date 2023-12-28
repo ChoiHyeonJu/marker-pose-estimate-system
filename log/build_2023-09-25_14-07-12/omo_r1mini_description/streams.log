@@ -1,0 +1,65 @@
+[0.188s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/omo_r1mini-foxy/omo_r1mini_description -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/omo_r1mini_description
+[0.892s] -- The C compiler identification is GNU 9.4.0
+[1.394s] -- The CXX compiler identification is GNU 9.4.0
+[1.586s] -- Detecting C compiler ABI info
+[1.847s] -- Detecting C compiler ABI info - done
+[1.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.882s] -- Detecting C compile features
+[1.883s] -- Detecting C compile features - done
+[1.932s] -- Detecting CXX compiler ABI info
+[2.049s] -- Detecting CXX compiler ABI info - done
+[2.071s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.072s] -- Detecting CXX compile features
+[2.073s] -- Detecting CXX compile features - done
+[2.180s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.436s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.436s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.174s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[3.880s] -- Configuring done (3.6s)
+[3.882s] -- Generating done (0.0s)
+[3.883s] -- Build files have been written to: /home/choi/marker_ws/build/omo_r1mini_description
+[3.914s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/omo_r1mini-foxy/omo_r1mini_description -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/omo_r1mini_description
+[3.915s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_description -- -j12 -l12
+[4.254s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_description -- -j12 -l12
+[4.648s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_description
+[8.862s] -- Install configuration: ""
+[8.862s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes
+[8.863s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases
+[8.863s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/housing_body.dae
+[8.863s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/bases/body_assy.dae
+[8.863s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels
+[8.863s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel.dae
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_rotate.dae
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/wheel_assy.dae
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/wheels/caster_wheel_mount.dae
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/meshes/sensors/ydlidar_assy.dae
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/rviz
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/rviz/model.rviz
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_simple.urdf
+[8.864s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_basic.urdf
+[8.867s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini.urdf
+[8.867s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/urdf/omo_r1mini_t265.urdf
+[8.868s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch
+[8.872s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_t265_state_publisher.launch.py
+[8.872s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_state_publisher.launch.py
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description_rviz.launch.py
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_description.launch.py
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/launch/omo_r1mini_state_publisher.launch.py
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_description
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_description
+[8.873s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.sh
+[8.874s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/ament_prefix_path.dsv
+[8.874s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.sh
+[8.874s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/environment/path.dsv
+[8.874s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.bash
+[8.874s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.sh
+[8.877s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.zsh
+[8.878s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/local_setup.dsv
+[8.878s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.dsv
+[8.878s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/ament_index/resource_index/packages/omo_r1mini_description
+[8.878s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig.cmake
+[8.879s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/cmake/omo_r1mini_descriptionConfig-version.cmake
+[8.879s] -- Installing: /home/choi/marker_ws/install/omo_r1mini_description/share/omo_r1mini_description/package.xml
+[8.901s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_description

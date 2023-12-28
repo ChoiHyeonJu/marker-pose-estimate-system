@@ -1,0 +1,103 @@
+[0.029s] Invoking command in '/home/choi/marker_ws/build/stereo_image_proc': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/stereo_image_proc
+[0.124s] -- The C compiler identification is GNU 9.4.0
+[0.195s] -- The CXX compiler identification is GNU 9.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.414s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.435s] -- Detecting CXX compile features - done
+[0.438s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.482s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.482s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.949s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.067s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.121s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.537s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.540s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.628s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.628s] -- Looking for pthread_create in pthreads
+[1.696s] -- Looking for pthread_create in pthreads - not found
+[1.696s] -- Looking for pthread_create in pthread
+[1.776s] -- Looking for pthread_create in pthread - found
+[1.779s] -- Found Threads: TRUE  
+[2.251s] -- Found OpenCV: /usr/local (found version "4.6.0") 
+[2.560s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.646s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.679s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.693s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.693s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.693s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.693s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.721s] -- Found PythonExtra: .so  
+[2.760s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.763s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.763s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/image_pipeline-foxy/stereo_image_proc/include
+[2.763s] -- Configured cppcheck exclude dirs and/or files: 
+[2.765s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.765s] -- Configured cpplint exclude dirs and/or files: 
+[2.766s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.767s] -- Added test 'lint_cmake' to check CMake code style
+[2.768s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.771s] -- Added test 'uncrustify' to check C / C++ code style
+[2.771s] -- Configured uncrustify additional arguments: 
+[2.772s] -- Added test 'xmllint' to check XML markup files
+[2.775s] -- Configuring done (2.7s)
+[2.817s] -- Generating done (0.0s)
+[2.819s] -- Build files have been written to: /home/choi/marker_ws/build/stereo_image_proc
+[2.839s] Invoked command in '/home/choi/marker_ws/build/stereo_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/stereo_image_proc -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/stereo_image_proc
+[2.845s] Invoking command in '/home/choi/marker_ws/build/stereo_image_proc': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/stereo_image_proc -- -j12 -l12
+[2.909s] [ 12%] [32mBuilding CXX object CMakeFiles/point_cloud_node.dir/rclcpp_components/node_main_point_cloud_node.cpp.o[0m
+[2.915s] [ 37%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/stereo_processor.cpp.o[0m
+[2.915s] [ 37%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/point_cloud_node.cpp.o[0m
+[2.915s] [ 50%] [32mBuilding CXX object CMakeFiles/disparity_node.dir/rclcpp_components/node_main_disparity_node.cpp.o[0m
+[2.915s] [ 62%] [32mBuilding CXX object CMakeFiles/stereo_image_proc.dir/src/stereo_image_proc/disparity_node.cpp.o[0m
+[5.461s] [ 75%] [32m[1mLinking CXX executable disparity_node[0m
+[5.578s] [ 87%] [32m[1mLinking CXX executable point_cloud_node[0m
+[5.596s] [ 87%] Built target disparity_node
+[5.700s] [ 87%] Built target point_cloud_node
+[14.525s] [100%] [32m[1mLinking CXX shared library libstereo_image_proc.so[0m
+[15.394s] [100%] Built target stereo_image_proc
+[15.406s] Invoked command in '/home/choi/marker_ws/build/stereo_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/stereo_image_proc -- -j12 -l12
+[15.497s] Invoking command in '/home/choi/marker_ws/build/stereo_image_proc': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/stereo_image_proc
+[15.536s] -- Install configuration: ""
+[15.536s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/lib/stereo_image_proc/disparity_node
+[15.538s] -- Set runtime path of "/home/choi/marker_ws/install/stereo_image_proc/lib/stereo_image_proc/disparity_node" to ""
+[15.538s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/lib/stereo_image_proc/point_cloud_node
+[15.538s] -- Set runtime path of "/home/choi/marker_ws/install/stereo_image_proc/lib/stereo_image_proc/point_cloud_node" to ""
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/include
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/include/stereo_image_proc
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/include/stereo_image_proc/stereo_processor.hpp
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.sh
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.dsv
+[15.539s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/lib/libstereo_image_proc.so
+[15.549s] -- Set runtime path of "/home/choi/marker_ws/install/stereo_image_proc/lib/libstereo_image_proc.so" to ""
+[15.549s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/launch
+[15.549s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/launch/stereo_image_proc.launch.py
+[15.549s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/ament_index/resource_index/package_run_dependencies/stereo_image_proc
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/ament_index/resource_index/parent_prefix_path/stereo_image_proc
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.sh
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.dsv
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.sh
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.dsv
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.bash
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.sh
+[15.550s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.zsh
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.dsv
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/ament_index/resource_index/packages/stereo_image_proc
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/ament_index/resource_index/rclcpp_components/stereo_image_proc
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[15.551s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig.cmake
+[15.552s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig-version.cmake
+[15.552s] -- Installing: /home/choi/marker_ws/install/stereo_image_proc/share/stereo_image_proc/package.xml
+[15.563s] Invoked command in '/home/choi/marker_ws/build/stereo_image_proc' returned '0': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy LD_LIBRARY_PATH=/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/stereo_image_proc

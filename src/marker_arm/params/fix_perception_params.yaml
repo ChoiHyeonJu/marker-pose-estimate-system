@@ -1,0 +1,27 @@
+# https://emanual.robotis.com/docs/en/dxl/x/xw430-t333/#drive-mode
+fix_perception_node:
+  ros__parameters:
+    is_fix_robot: true
+    period_detect_ms: 50  # ms (int)
+    body_base_frame: "marker_fix/arm_base"
+    opp_base_frame: "marker_mov/arm_base"
+    link0_axis_frame: "marker_fix/link0_axis"
+    yaw_frame: "marker_fix/link1"
+    pitch_frame: "marker_fix/link2"
+    cam_frame: "marker_fix/cam_frame"
+    vis_opp_marker_frame: "marker_mov/vis_marker_frame"
+    vis_opp_base_frame: "marker_mov/vis_arm_base"
+    opp_marker_frame: "marker_mov/marker_frame"
+    vis_ego_marker_frame: "marker_fix/vis_marker_frame"
+    ego_marker_frame: "marker_fix/marker_frame"
+    opp_odom_frame: "odom_frame"
+    kf_vel_damp: 0.99
+    surface_mode: false
+    FB2OD_set_err_thres_dist: 0.015
+
+    combine_m2m_alpha: 0.5
+    update_m2m_alpha: 0.5
+
+    marker_pose_topic: "/fix_aruco_node/marker_pose"
+    pub_odom_tf: true
+

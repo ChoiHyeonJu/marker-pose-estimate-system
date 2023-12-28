@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<robot name="marker_mov" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <material name="red">
+    <color rgba="0.8 0 0 1"/>
+  </material>
+
+  <material name="green">
+    <color rgba="0 0.8 0 1"/>
+  </material>
+
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="white">
+    <!-- <color rgba="1 1 1 1"/> -->
+    <color rgba="1.0 0.996078431372549 0.7137254901960784 1.0" />
+  </material>
+
+  <xacro:property name="rob_name" value="marker_mov" />
+
+  <xacro:property name="cam_y_offset" value="0.075" />
+  <xacro:property name="link0_x_offset" value="0.0" />
+  <xacro:property name="link0_axis_z_length" value="0.175" />
+  <xacro:property name="arm_base_length" value="0.1" />
+
+
+  <link name="${rob_name}/arm_base">
+    <visual>
+      <origin xyz="0 0 0.01" rpy="0 0 0" />
+      <geometry>
+        <box size = "${arm_base_length} ${arm_base_length} 0.02" rpy = "0 0 0"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/link0_axis">
+    <visual>
+      <origin xyz="0 0 ${link0_axis_z_length/2}" rpy="0 0 0" />
+      <geometry>
+        <box size = "0.025 0.025 ${link0_axis_z_length}" rpy = "0 0 0"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/link0">
+    <visual>
+      <origin xyz="${link0_x_offset/2} 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size = "${link0_x_offset/2} 0.04 ${link0_x_offset/2}" rpy = "0 0 0"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+
+  <link name="${rob_name}/link1_axis">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.005"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/link1">
+    <visual>
+      <origin xyz="0.011 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size = "0.046 0.04 0.035" rpy = "0 0 0"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/link2_axis">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.005"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/link2">
+    <visual>
+      <origin xyz="0.03 0 0" rpy="0 0 0" />
+      <geometry>
+        <box size = "0.06 0.03 0.042" rpy = "0 0 0"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/cam_base">
+    <visual>
+      <origin xyz="-0.015 0 0" rpy="0 ${pi/2} 0" />
+      <geometry>
+        <cylinder length="0.03" radius="0.01"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/cam_frame" >
+    <visual>
+      <origin xyz="0 0.06 0" rpy="0 0 0" />
+      <geometry>
+        <box size = "0.12 0.15 0.005" rpy = "0 0 0"/>
+      </geometry>
+      <material name="white"/>
+    </visual>
+  </link>
+
+  <link name="${rob_name}/marker_frame" >
+    <visual>
+      <origin xyz="0 0 0.002" rpy="0 0 0" />
+      <geometry>
+        <box size = "0.12 0.12 0.002" rpy = "0 0 0"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+  </link>
+
+  <joint name="joint1" type="continuous">
+    <parent link="${rob_name}/link1_axis" />
+    <child link="${rob_name}/link1" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint2_axis" type="fixed">
+    <origin xyz="0.025 0 0" rpy="${pi/2} 0 0" />
+    <parent link="${rob_name}/link1" />
+    <child link="${rob_name}/link2_axis" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint2" type="revolute">
+    <limit effort="1000.0"  velocity="10.0" lower="${-pi/2}" upper="${pi/2}"/>
+    <parent link="${rob_name}/link2_axis" />
+    <child link="${rob_name}/link2" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint_cam_base" type="fixed">
+    <!-- <origin xyz="0.06 0 0" rpy="${-pi/2} 0 0" /> -->
+    <origin xyz="0.055 ${cam_y_offset} 0" rpy="${-pi/2} 0 0" />
+    <parent link="${rob_name}/link2" />
+    <child link="${rob_name}/cam_base" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint_cam_frame" type="fixed">
+    <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}" />
+    <parent link="${rob_name}/cam_base" />
+    <child link="${rob_name}/cam_frame" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint_marker" type="fixed">
+    <origin xyz="0.055 0 0" rpy="0 ${pi/2} 0" />
+    <parent link="${rob_name}/link2" />
+    <child link="${rob_name}/marker_frame" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+
+
+
+
+
+  <joint name="arm_base_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="${rob_name}/arm_base" />
+    <child link="${rob_name}/link0_axis" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="link0_axis_joint" type="fixed">
+    <origin xyz="0 0 ${link0_axis_z_length}" rpy="0 0 0" />
+    <parent link="${rob_name}/link0_axis" />
+    <child link="${rob_name}/link0" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+  <joint name="joint0_axis" type="fixed">
+    <origin xyz="${link0_x_offset} 0 0" rpy="0 0 0" />
+    <parent link="${rob_name}/link0" />
+    <child link="${rob_name}/link1_axis" />
+    <axis xyz="0 0 1"/>
+  </joint>
+
+
+</robot>

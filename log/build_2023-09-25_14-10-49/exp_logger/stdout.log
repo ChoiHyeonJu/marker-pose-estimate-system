@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing exp_logger.egg-info/PKG-INFO
+writing dependency_links to exp_logger.egg-info/dependency_links.txt
+writing entry points to exp_logger.egg-info/entry_points.txt
+writing requirements to exp_logger.egg-info/requires.txt
+writing top-level names to exp_logger.egg-info/top_level.txt
+reading manifest file 'exp_logger.egg-info/SOURCES.txt'
+writing manifest file 'exp_logger.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages/exp-logger.egg-link (link to .)
+Installing exp_logger script to /home/choi/marker_ws/install/exp_logger/lib/exp_logger
+
+Installed /home/choi/marker_ws/build/exp_logger
+running install_data

@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/choi/marker_ws/build/omo_r1mini
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/package_run_dependencies/omo_r1mini
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/parent_prefix_path/omo_r1mini
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.sh
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/ament_prefix_path.dsv
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/path.sh
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/environment/path.dsv
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.bash
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.sh
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.zsh
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/local_setup.dsv
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/package.dsv
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/ament_index/resource_index/packages/omo_r1mini
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig.cmake
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/cmake/omo_r1miniConfig-version.cmake
+-- Symlinking: /home/choi/marker_ws/install/omo_r1mini/share/omo_r1mini/package.xml

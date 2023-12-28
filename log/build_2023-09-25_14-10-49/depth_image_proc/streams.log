@@ -1,0 +1,83 @@
+[0.464s] Invoking command in '/home/choi/marker_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/depth_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/depth_image_proc
+[0.886s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.887s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.960s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.433s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.568s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.592s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.596s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.597s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/image_pipeline-foxy/depth_image_proc/include
+[2.597s] -- Configured cppcheck exclude dirs and/or files: 
+[2.601s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.602s] -- Configured cpplint exclude dirs and/or files: 
+[2.602s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.604s] -- Added test 'lint_cmake' to check CMake code style
+[2.605s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.608s] -- Added test 'uncrustify' to check C / C++ code style
+[2.608s] -- Configured uncrustify additional arguments: 
+[2.609s] -- Added test 'xmllint' to check XML markup files
+[2.613s] -- Configuring done (2.1s)
+[2.679s] -- Generating done (0.0s)
+[2.682s] -- Build files have been written to: /home/choi/marker_ws/build/depth_image_proc
+[2.708s] Invoked command in '/home/choi/marker_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/depth_image_proc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/depth_image_proc
+[2.709s] Invoking command in '/home/choi/marker_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/depth_image_proc -- -j12 -l12
+[3.348s] [  8%] [32m[1mLinking CXX shared library libdepth_image_proc.so[0m
+[5.731s] [100%] Built target depth_image_proc
+[5.766s] Invoked command in '/home/choi/marker_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/depth_image_proc -- -j12 -l12
+[6.106s] Invoking command in '/home/choi/marker_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/depth_image_proc
+[6.163s] -- Install configuration: ""
+[6.163s] -- Execute custom install script
+[6.164s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+[6.172s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+[6.177s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+[6.181s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+[6.185s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+[6.189s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+[6.213s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+[6.236s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+[6.249s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/include/depth_image_proc/visibility.h
+[6.269s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+[6.283s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+[6.305s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/lib/libdepth_image_proc.so
+[6.329s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+[6.345s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+[6.358s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+[6.377s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+[6.397s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+[6.409s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+[6.433s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+[6.453s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+[6.465s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+[6.485s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+[6.505s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+[6.525s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+[6.549s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+[6.569s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+[6.596s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+[6.613s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+[6.629s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+[6.656s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+[6.681s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+[6.697s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+[6.714s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+[6.733s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+[6.757s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+[6.778s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+[6.797s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+[6.821s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+[6.845s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+[6.865s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+[6.897s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+[6.921s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+[6.953s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+[6.973s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.993s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.013s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[7.033s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+[7.053s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+[7.061s] -- Symlinking: /home/choi/marker_ws/install/depth_image_proc/share/depth_image_proc/package.xml
+[7.165s] Invoked command in '/home/choi/marker_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/depth_image_proc

@@ -1,0 +1,36 @@
+[0.223s] Invoking command in '/home/choi/marker_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/tracetools_image_pipeline -- -j12 -l12
+[1.216s] [ 60%] Built target tracetools_image_pipeline
+[1.217s] [100%] Built target status
+[1.595s] Invoked command in '/home/choi/marker_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/tracetools_image_pipeline -- -j12 -l12
+[1.749s] Invoking command in '/home/choi/marker_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/tracetools_image_pipeline
+[1.951s] -- Install configuration: ""
+[2.102s] -- Execute custom install script
+[2.102s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[2.102s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[2.119s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[2.163s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[2.165s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[2.165s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[2.166s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[2.169s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[2.169s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[2.170s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[2.170s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[2.170s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[2.171s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[2.171s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[2.171s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[2.171s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[2.172s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[2.172s] -- Symlinking: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[2.173s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[2.174s] -- Up-to-date symlink: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[2.180s] -- Up-to-date: /home/choi/marker_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[2.216s] -- Up-to-date: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[2.216s] -- Up-to-date: /home/choi/marker_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-noconfig.cmake
+[2.629s] Invoked command in '/home/choi/marker_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/tracetools_image_pipeline

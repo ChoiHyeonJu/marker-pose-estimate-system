@@ -1,0 +1,85 @@
+[nomachine 설치]
+-nomachine 홈페이지 -> other operating systems -> nomachine embedded editions -> NoMachine for Arm -> armv8 설치
+-로봇이 서버이고 데스크탑이 클라이언트임. 그냥 데스크탑에서 노머신 실행해서 검색하면 로봇 바로 뜸. 추가셋팅 필요없음
+
+[한글설치]
+1. 설치
+	-아래 링크 참고 https://jjeongil.tistory.com/2090
+	-재부팅
+
+[원격접속]
+-기존의 remmina는 VNC로 접속해야 하는데 너무 느리고 dummy DP가 또한 필요함
+	-이건 DP->HDMI 변환 케이블 쓰면 됨 (범수한테 달라고 하자)
+-그냥 팀뷰어 설치하면 끝날지도?
+
+[셋팅]
+0. VSCode 설치
+	-https://jetsonhacks.com/2020/11/28/visual-studio-code/
+	
+1. ros2 관련 패키지 설치
+	-sudo apt install ros-foxy-dynamixel-sdk
+	-sudo apt install ros-foxy-nav2-*
+	-sudo apt install ros-foxy-usb-cam
+	-sudo apt install ros-foxy-diagnostic-updater  (robot_localizaiton에서 필요함)
+
+2. 파이썬 패키지 설치
+	-pip install pyserial
+	-pip install xacro
+	-pip install onnx
+	-pip install --upgrade numpy
+	-pip install opencv-contrib-python==4.6.0.66 (aruco marker ros wrapper 가 4.6 버전을 필요로 함)
+	
+3. omo 관련 (https://www.omorobot.com/docs/omo_r1mini-%ED%8C%A8%ED%82%A4%EC%A7%80-%EC%84%A4%EC%B9%98/)
+	1) ~/marker_ws/src/omo_r1mini-foxy/omo_r1mini_bringup 폴더의 create_udev_rules.sh 실행해야 함
+	-폴더로 이동
+	-chmod +x create_udev_rules.sh 
+	-sudo ./create_udev_rules.sh
+	2) 아래 두 명령 실행
+	-systemctl stop nvgetty
+	-systemctl disable nvgetty
+	3) 아래 명령 실행 후 재부팅
+	-udevadm trigger
+
+4. 다이나믹셀 관련
+	-/dev/ttyUSB0로 잡힘
+	-근데 권한이 없을 경우 론치 실행하면 아래와 같이 뜸
+	 [marker_arm_control_node-3] [ERROR] [1692197233.641949830] [mov_control_node]: Failed to open the port!
+	-현재 사용자 (omo)를 아래와 같이 dialout에 추가하고 재부팅
+		-sudo adduser <user_name> dialout
+
+5. opencv 설치
+	-pkg-config --modversion opencv 를 했을 때 not found라고 뜨면 설치를 해야 함
+	-이것이 잘 돌아가려면 여러 패키지들을 설치해줘야 됨
+	-어차피 없는 패키지들을 쓰면서 설치하면 됨
+	-pip install opencv-contrib-python==4.6.0.66
+
+6. 카메라 칼리브레이션 관련 설치 (https://navigation.ros.org/tutorials/docs/camera_calibration.html)
+	-sudo apt install ros-foxy-camera-calibration-parsers
+	-sudo apt install ros-foxy-camera-info-manager
+	-sudo apt install ros-foxy-launch-testing-ament-cmake
+  -image pipeline 설치 (nav2 웹사이트에서는 소스로 받아서 빌드해라고 함)
+  	-https://github.com/ros-perception/image_pipeline/tree/foxy 
+	  -패키지 소스로 다운받아서 워크스페이스에 넣고 컴파일
+	  
+7. 카메라 칼리브레이션
+	-핵심은 내가 원하는 이미지 해상도로 카메라를 실행시킨 다음 칼리브레이션 하는 것임
+	-근데 해상도 설정하려면 yaml 파일로 파라미터 설정해야 함
+	-그래서 임시방편으로 marker_arm 패키지의 mov_bringup.launch.py 에서 usb_cam_node만 실행시킴 (파라미터는 설정되었다고 가정)
+  -ros2 run camera_calibration cameracalibrator --size 7x9 --square 0.02 --ros-args -r image:=/mov_cam_node/image_raw
+	-calibrate 버튼 누른 후에 완료되면 gui에서 반드시 save 버튼을 눌러야 yaml파일이 생성됨.
+	
+8. robot_localization 관련 패키지 설치
+	-sudo apt install ros-foxy-geographic-msgs
+	-sudo apt install ros-foxy-geographic-info
+	-sudo apt install libgeographic-dev
+
+
+[마커 트레킹 테스트]
+-ros2 launch marker_arm mov_bringup.launch.py
+ 
+[오모로봇 동작 확인을 위한 조이스틱 테스트]
+-ros2 launch omo_r1mini_bringup omo_joy.launch.py
+
+
+잠만... usb0가 누구냐? 카메라? 다이나믹셀?
+

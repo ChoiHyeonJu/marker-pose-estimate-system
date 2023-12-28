@@ -1,0 +1,26 @@
+[0.454s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_cartographer -- -j12 -l12
+[1.228s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_cartographer -- -j12 -l12
+[1.398s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_cartographer
+[1.501s] -- Install configuration: ""
+[1.501s] -- Execute custom install script
+[1.502s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/config/omo_r1mini_lidar.lua
+[1.502s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer.launch.py
+[1.502s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/cartographer_rviz.launch.py
+[1.504s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/launch/occupancy_grid.launch.py
+[1.505s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/rviz/omo_r1mini_cartographer.rviz
+[1.505s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_cartographer
+[1.506s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_cartographer
+[1.506s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.sh
+[1.506s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/ament_prefix_path.dsv
+[1.507s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.sh
+[1.507s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/environment/path.dsv
+[1.507s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.bash
+[1.507s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.sh
+[1.508s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.zsh
+[1.510s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/local_setup.dsv
+[1.511s] -- Symlinking: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.dsv
+[1.513s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/ament_index/resource_index/packages/omo_r1mini_cartographer
+[1.513s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig.cmake
+[1.516s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/cmake/omo_r1mini_cartographerConfig-version.cmake
+[1.517s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_cartographer/share/omo_r1mini_cartographer/package.xml
+[1.617s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_cartographer

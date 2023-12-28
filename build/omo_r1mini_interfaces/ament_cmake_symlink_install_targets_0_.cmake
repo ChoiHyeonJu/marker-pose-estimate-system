@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/choi/marker_ws/build/omo_r1mini_interfaces/libomo_r1mini_interfaces__rosidl_typesupport_fastrtps_c.so" "TARGETS" "omo_r1mini_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/choi/marker_ws/build/marker_arm/marker_arm_control_node" "/home/choi/marker_ws/build/marker_arm/marker_arm_perception_node" "TARGETS" "marker_arm_control_node" "marker_arm_perception_node" "DESTINATION" "lib/marker_arm")

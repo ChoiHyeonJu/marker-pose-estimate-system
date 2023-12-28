@@ -1,0 +1,184 @@
+[0.157s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_interfaces -- -j12 -l12
+[0.920s] [  1%] Built target omo_r1mini_interfaces__cpp
+[0.921s] [ 12%] Built target omo_r1mini_interfaces__rosidl_generator_c
+[0.924s] [ 30%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.924s] [ 35%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_c
+[0.926s] [ 46%] Built target omo_r1mini_interfaces__rosidl_typesupport_c
+[0.926s] [ 57%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_cpp
+[0.926s] [ 69%] Built target omo_r1mini_interfaces__rosidl_typesupport_cpp
+[0.927s] [ 80%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_c
+[0.927s] [ 80%] Built target omo_r1mini_interfaces
+[0.927s] [ 81%] Built target omo_r1mini_interfaces__py
+[0.927s] [ 91%] Built target omo_r1mini_interfaces__python
+[0.927s] [ 94%] Built target omo_r1mini_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.927s] [ 97%] Built target omo_r1mini_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.927s] [100%] Built target omo_r1mini_interfaces__rosidl_typesupport_c__pyext
+[1.294s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/omo_r1mini_interfaces -- -j12 -l12
+[1.711s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_interfaces
+[1.770s] -- Install configuration: ""
+[1.770s] -- Execute custom install script
+[1.770s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/rosidl_interfaces/omo_r1mini_interfaces
+[1.771s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.772s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/battery.h
+[1.773s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/calg.h
+[1.776s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/color.h
+[1.776s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__functions.h
+[1.787s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__struct.h
+[1.787s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__type_support.h
+[1.788s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__functions.h
+[1.788s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__struct.h
+[1.788s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__type_support.h
+[1.789s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__functions.h
+[1.789s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__struct.h
+[1.789s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__type_support.h
+[1.789s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__functions.h
+[1.790s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__struct.h
+[1.790s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__type_support.h
+[1.790s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__functions.h
+[1.791s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__struct.h
+[1.791s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__type_support.h
+[1.791s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__functions.h
+[1.791s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__struct.h
+[1.792s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__type_support.h
+[1.792s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/onoff.h
+[1.792s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/reset_odom.h
+[1.793s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/save_color.h
+[1.793s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/library_path.sh
+[1.793s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/library_path.dsv
+[1.794s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.798s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_fastrtps_c.h
+[1.798s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_fastrtps_c.h
+[1.798s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_fastrtps_c.h
+[1.799s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_fastrtps_c.h
+[1.799s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_fastrtps_c.h
+[1.800s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_fastrtps_c.h
+[1.803s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.803s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.803s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_fastrtps_cpp.hpp
+[1.804s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_fastrtps_cpp.hpp
+[1.805s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[1.805s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_fastrtps_cpp.hpp
+[1.805s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_fastrtps_cpp.hpp
+[1.806s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_fastrtps_cpp.hpp
+[1.809s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.809s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.809s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_introspection_c.h
+[1.810s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_introspection_c.h
+[1.810s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_introspection_c.h
+[1.810s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_introspection_c.h
+[1.811s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_introspection_c.h
+[1.811s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_introspection_c.h
+[1.811s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.812s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/battery.hpp
+[1.812s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/calg.hpp
+[1.813s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/color.hpp
+[1.813s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__builder.hpp
+[1.813s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__struct.hpp
+[1.814s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__traits.hpp
+[1.814s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__type_support.hpp
+[1.819s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__builder.hpp
+[1.819s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__struct.hpp
+[1.820s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__traits.hpp
+[1.820s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__type_support.hpp
+[1.820s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__builder.hpp
+[1.820s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__struct.hpp
+[1.821s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__traits.hpp
+[1.821s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__type_support.hpp
+[1.821s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__builder.hpp
+[1.821s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__struct.hpp
+[1.821s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__traits.hpp
+[1.825s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__type_support.hpp
+[1.825s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__builder.hpp
+[1.825s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__struct.hpp
+[1.826s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__traits.hpp
+[1.826s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__type_support.hpp
+[1.826s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__builder.hpp
+[1.827s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__struct.hpp
+[1.827s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__traits.hpp
+[1.827s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__type_support.hpp
+[1.828s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/onoff.hpp
+[1.828s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/reset_odom.hpp
+[1.828s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/save_color.hpp
+[1.832s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/battery__rosidl_typesupport_introspection_cpp.hpp
+[1.832s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/calg__rosidl_typesupport_introspection_cpp.hpp
+[1.832s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[1.833s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/onoff__rosidl_typesupport_introspection_cpp.hpp
+[1.833s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/reset_odom__rosidl_typesupport_introspection_cpp.hpp
+[1.833s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/include/omo_r1mini_interfaces/srv/detail/save_color__rosidl_typesupport_introspection_cpp.hpp
+[1.833s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/pythonpath.sh
+[1.834s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/pythonpath.dsv
+[1.834s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/__init__.py
+[1.834s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/__init__.py
+[1.835s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_battery.py
+[1.835s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_calg.py
+[1.836s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_color.py
+[1.840s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_onoff.py
+[1.840s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_reset_odom.py
+[1.841s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/srv/_save_color.py
+[1.841s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.841s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.842s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages/omo_r1mini_interfaces/omo_r1mini_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.842s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__python.so
+[1.842s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery.idl
+[1.843s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg.idl
+[1.843s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color.idl
+[1.843s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff.idl
+[1.844s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom.idl
+[1.844s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor.idl
+[1.844s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery.srv
+[1.845s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery_Request.msg
+[1.845s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Battery_Response.msg
+[1.845s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg.srv
+[1.845s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg_Request.msg
+[1.846s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Calg_Response.msg
+[1.851s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color.srv
+[1.851s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color_Request.msg
+[1.851s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Color_Response.msg
+[1.851s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff.srv
+[1.852s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff_Request.msg
+[1.852s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/Onoff_Response.msg
+[1.852s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom.srv
+[1.853s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom_Request.msg
+[1.853s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/ResetOdom_Response.msg
+[1.853s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor.srv
+[1.858s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor_Request.msg
+[1.859s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/srv/SaveColor_Response.msg
+[1.859s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/package_run_dependencies/omo_r1mini_interfaces
+[1.859s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/parent_prefix_path/omo_r1mini_interfaces
+[1.859s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/ament_prefix_path.sh
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/ament_prefix_path.dsv
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/path.sh
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/environment/path.dsv
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.bash
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.sh
+[1.860s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.zsh
+[1.861s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/local_setup.dsv
+[1.861s] -- Symlinking: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/package.dsv
+[1.861s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/ament_index/resource_index/packages/omo_r1mini_interfaces
+[1.861s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.861s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.862s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.862s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.862s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.862s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.862s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.863s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfacesConfig.cmake
+[1.863s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfacesConfig-version.cmake
+[1.863s] -- Up-to-date symlink: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/package.xml
+[1.863s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_generator_c.so
+[1.863s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_introspection_c.so
+[1.864s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_c.so
+[1.864s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.864s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/lib/libomo_r1mini_interfaces__rosidl_typesupport_cpp.so
+[1.914s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cExport.cmake
+[1.916s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.916s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.916s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.917s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cExport.cmake
+[1.919s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.920s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_generator_cppExport.cmake
+[1.920s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.921s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.921s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cppExport.cmake
+[1.921s] -- Up-to-date: /home/choi/marker_ws/install/omo_r1mini_interfaces/share/omo_r1mini_interfaces/cmake/omo_r1mini_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.023s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/omo_r1mini_interfaces

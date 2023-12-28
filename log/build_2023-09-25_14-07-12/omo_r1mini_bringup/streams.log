@@ -1,0 +1,86 @@
+[3.312s] Invoking command in '/home/choi/marker_ws/src/omo_r1mini-foxy/omo_r1mini_bringup': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc LD_LIBRARY_PATH=/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/choi/marker_ws/build/omo_r1mini_bringup/prefix_override:/home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/choi/marker_ws/build/ros2_aruco:/home/choi/marker_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/choi/marker_ws/install/robot_localization/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_bringup:/home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/home/choi/marker_ws/build/exp_logger:/home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages:/home/choi/marker_ws/build/camera_calibration/src:/home/choi/marker_ws/install/camera_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/omo_r1mini_bringup build --build-base /home/choi/marker_ws/build/omo_r1mini_bringup/build install --record /home/choi/marker_ws/build/omo_r1mini_bringup/install.log --single-version-externally-managed
+[4.105s] running egg_info
+[4.106s] creating ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info
+[4.106s] writing ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/PKG-INFO
+[4.107s] writing dependency_links to ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/dependency_links.txt
+[4.107s] writing entry points to ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/entry_points.txt
+[4.107s] writing requirements to ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/requires.txt
+[4.107s] writing top-level names to ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/top_level.txt
+[4.122s] writing manifest file '../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'
+[4.125s] reading manifest file '../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'
+[4.127s] writing manifest file '../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info/SOURCES.txt'
+[4.127s] running build
+[4.127s] running build_py
+[4.127s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build
+[4.128s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib
+[4.128s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup
+[4.129s] copying omo_r1mini_bringup/__init__.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup
+[4.129s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts
+[4.129s] copying omo_r1mini_bringup/scripts/omo_r1mini_mcu_node.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts
+[4.129s] copying omo_r1mini_bringup/scripts/omo_r1mini_motor_setting_node.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts
+[4.129s] copying omo_r1mini_bringup/scripts/omo_packet_handler.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts
+[4.130s] copying omo_r1mini_bringup/scripts/__init__.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts
+[4.130s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/calc
+[4.130s] copying omo_r1mini_bringup/scripts/calc/quaternion_from_euler.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/calc
+[4.130s] copying omo_r1mini_bringup/scripts/calc/__init__.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/calc
+[4.130s] creating /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver
+[4.131s] copying omo_r1mini_bringup/scripts/driver/port.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver
+[4.131s] copying omo_r1mini_bringup/scripts/driver/packet.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver
+[4.131s] copying omo_r1mini_bringup/scripts/driver/template.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver
+[4.131s] copying omo_r1mini_bringup/scripts/driver/__init__.py -> /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver
+[4.132s] running install
+[4.134s] running install_lib
+[4.135s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup
+[4.135s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts
+[4.135s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/calc
+[4.136s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/calc/quaternion_from_euler.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/calc
+[4.136s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/calc/__init__.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/calc
+[4.136s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/omo_r1mini_mcu_node.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts
+[4.136s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver
+[4.136s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver/port.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver/packet.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver/template.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/driver/__init__.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/omo_r1mini_motor_setting_node.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/omo_packet_handler.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts
+[4.137s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/scripts/__init__.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts
+[4.138s] copying /home/choi/marker_ws/build/omo_r1mini_bringup/build/lib/omo_r1mini_bringup/__init__.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup
+[4.139s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/calc/quaternion_from_euler.py to quaternion_from_euler.cpython-38.pyc
+[4.139s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/calc/__init__.py to __init__.cpython-38.pyc
+[4.140s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/omo_r1mini_mcu_node.py to omo_r1mini_mcu_node.cpython-38.pyc
+[4.144s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver/port.py to port.cpython-38.pyc
+[4.145s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver/packet.py to packet.cpython-38.pyc
+[4.146s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver/template.py to template.cpython-38.pyc
+[4.147s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/driver/__init__.py to __init__.cpython-38.pyc
+[4.147s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/omo_r1mini_motor_setting_node.py to omo_r1mini_motor_setting_node.cpython-38.pyc
+[4.148s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/omo_packet_handler.py to omo_packet_handler.cpython-38.pyc
+[4.149s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/scripts/__init__.py to __init__.cpython-38.pyc
+[4.150s] byte-compiling /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup/__init__.py to __init__.cpython-38.pyc
+[4.150s] running install_data
+[4.151s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/share/ament_index
+[4.151s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/share/ament_index/resource_index
+[4.151s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages
+[4.152s] copying resource/omo_r1mini_bringup -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/ament_index/resource_index/packages
+[4.152s] copying package.xml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup
+[4.152s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.152s] copying launch/omo_r1mini_mcu.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.152s] copying launch/omo_r1mini_t265_bringup.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.153s] copying launch/my_rplidar_s1.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.153s] copying launch/omo_base.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.153s] copying launch/omo_r1mini_lidar.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.153s] copying launch/omo_r1mini_motor_setting.launch.py -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/launch
+[4.154s] creating /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.154s] copying param/omo_r1mini_G6_lidar.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.154s] copying param/omo_r1mini_mcu.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.154s] copying param/ps5_config.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.154s] copying param/omo_r1mini_X4_lidar.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.155s] copying param/calibration_odometry.json -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.155s] copying param/omo_r1mini_TG15_lidar.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.155s] copying param/omo_ekf.yaml -> /home/choi/marker_ws/install/omo_r1mini_bringup/share/omo_r1mini_bringup/param
+[4.155s] running install_egg_info
+[4.159s] Copying ../../../build/omo_r1mini_bringup/omo_r1mini_bringup.egg-info to /home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages/omo_r1mini_bringup-0.0.1-py3.8.egg-info
+[4.160s] running install_scripts
+[4.192s] Installing omo_r1mini_mcu_node script to /home/choi/marker_ws/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[4.193s] Installing omo_r1mini_motor_setting_node script to /home/choi/marker_ws/install/omo_r1mini_bringup/lib/omo_r1mini_bringup
+[4.194s] writing list of installed files to '/home/choi/marker_ws/build/omo_r1mini_bringup/install.log'
+[4.238s] Invoked command in '/home/choi/marker_ws/src/omo_r1mini-foxy/omo_r1mini_bringup' returned '0': CMAKE_PREFIX_PATH=/home/choi/marker_ws/install/omo_r1mini_interfaces:/home/choi/marker_ws/install/omo_r1mini_description:/home/choi/marker_ws/install/image_pipeline:/home/choi/marker_ws/install/stereo_image_proc:/home/choi/marker_ws/install/image_proc:/home/choi/marker_ws/install/tracetools_image_pipeline:/home/choi/marker_ws/install/teleop_twist_joy:/home/choi/marker_ws/install/ros2_aruco_interfaces:/home/choi/marker_ws/install/marker_arm:/home/choi/marker_ws/install/robot_localization:/home/choi/marker_ws/install/omo_r1mini:/home/choi/marker_ws/install/omo_r1mini_cartographer:/home/choi/marker_ws/install/image_view:/home/choi/marker_ws/install/image_rotate:/home/choi/marker_ws/install/image_publisher:/home/choi/marker_ws/install/depth_image_proc LD_LIBRARY_PATH=/home/choi/marker_ws/install/omo_r1mini_interfaces/lib:/home/choi/marker_ws/install/stereo_image_proc/lib:/home/choi/marker_ws/install/image_proc/lib:/home/choi/marker_ws/install/tracetools_image_pipeline/lib:/home/choi/marker_ws/install/teleop_twist_joy/lib:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib:/home/choi/marker_ws/install/robot_localization/lib:/home/choi/marker_ws/install/image_view/lib:/home/choi/marker_ws/install/image_rotate/lib:/home/choi/marker_ws/install/image_publisher/lib:/home/choi/marker_ws/install/depth_image_proc/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/choi/marker_ws/build/omo_r1mini_bringup/prefix_override:/home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/home/choi/marker_ws/install/omo_r1mini_interfaces/lib/python3.8/site-packages:/home/choi/marker_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/choi/marker_ws/build/ros2_aruco:/home/choi/marker_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/choi/marker_ws/install/robot_localization/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_teleop/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages:/home/choi/marker_ws/build/omo_r1mini_bringup:/home/choi/marker_ws/install/omo_r1mini_bringup/lib/python3.8/site-packages:/home/choi/marker_ws/build/exp_logger:/home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages:/home/choi/marker_ws/build/camera_calibration/src:/home/choi/marker_ws/install/camera_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/omo_r1mini_bringup build --build-base /home/choi/marker_ws/build/omo_r1mini_bringup/build install --record /home/choi/marker_ws/build/omo_r1mini_bringup/install.log --single-version-externally-managed

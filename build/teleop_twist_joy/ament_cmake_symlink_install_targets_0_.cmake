@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/choi/marker_ws/build/teleop_twist_joy/libteleop_twist_joy.so" "TARGETS" "teleop_twist_joy" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

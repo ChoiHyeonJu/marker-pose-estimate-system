@@ -1,0 +1,18 @@
+[2.728s] Invoking command in '/home/choi/marker_ws/build/ros2_aruco': PYTHONPATH=/home/choi/marker_ws/build/ros2_aruco/prefix_override:/home/choi/marker_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/ros2_aruco/build --no-deps install_data
+[3.218s] running develop
+[3.578s] running egg_info
+[3.578s] writing ros2_aruco.egg-info/PKG-INFO
+[3.579s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[3.579s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[3.579s] writing requirements to ros2_aruco.egg-info/requires.txt
+[3.579s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[3.583s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[3.601s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[3.646s] running build_ext
+[3.646s] Creating /home/choi/marker_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)
+[3.647s] Installing aruco_generate_marker script to /home/choi/marker_ws/install/ros2_aruco/lib/ros2_aruco
+[3.647s] Installing aruco_node script to /home/choi/marker_ws/install/ros2_aruco/lib/ros2_aruco
+[3.648s] 
+[3.648s] Installed /home/choi/marker_ws/build/ros2_aruco
+[3.648s] running install_data
+[3.693s] Invoked command in '/home/choi/marker_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/choi/marker_ws/build/ros2_aruco/prefix_override:/home/choi/marker_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/ros2_aruco/build --no-deps install_data

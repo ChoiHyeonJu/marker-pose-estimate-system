@@ -1,0 +1,17 @@
+[5.389s] Invoking command in '/home/choi/marker_ws/build/exp_logger': PYTHONPATH=/home/choi/marker_ws/build/exp_logger/prefix_override:/home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/exp_logger/build --no-deps install_data
+[5.840s] running develop
+[6.259s] running egg_info
+[6.259s] writing exp_logger.egg-info/PKG-INFO
+[6.259s] writing dependency_links to exp_logger.egg-info/dependency_links.txt
+[6.260s] writing entry points to exp_logger.egg-info/entry_points.txt
+[6.260s] writing requirements to exp_logger.egg-info/requires.txt
+[6.260s] writing top-level names to exp_logger.egg-info/top_level.txt
+[6.263s] reading manifest file 'exp_logger.egg-info/SOURCES.txt'
+[6.270s] writing manifest file 'exp_logger.egg-info/SOURCES.txt'
+[6.309s] running build_ext
+[6.310s] Creating /home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages/exp-logger.egg-link (link to .)
+[6.312s] Installing exp_logger script to /home/choi/marker_ws/install/exp_logger/lib/exp_logger
+[6.312s] 
+[6.312s] Installed /home/choi/marker_ws/build/exp_logger
+[6.312s] running install_data
+[6.392s] Invoked command in '/home/choi/marker_ws/build/exp_logger' returned '0': PYTHONPATH=/home/choi/marker_ws/build/exp_logger/prefix_override:/home/choi/marker_ws/install/exp_logger/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/exp_logger/build --no-deps install_data

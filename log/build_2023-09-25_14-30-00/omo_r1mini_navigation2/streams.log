@@ -1,0 +1,16 @@
+[2.326s] Invoking command in '/home/choi/marker_ws/build/omo_r1mini_navigation2': PYTHONPATH=/home/choi/marker_ws/build/omo_r1mini_navigation2/prefix_override:/home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/omo_r1mini_navigation2/build --no-deps install_data
+[2.692s] running develop
+[2.880s] running egg_info
+[2.880s] writing omo_r1mini_navigation2.egg-info/PKG-INFO
+[2.880s] writing dependency_links to omo_r1mini_navigation2.egg-info/dependency_links.txt
+[2.880s] writing entry points to omo_r1mini_navigation2.egg-info/entry_points.txt
+[2.881s] writing requirements to omo_r1mini_navigation2.egg-info/requires.txt
+[2.881s] writing top-level names to omo_r1mini_navigation2.egg-info/top_level.txt
+[2.883s] reading manifest file 'omo_r1mini_navigation2.egg-info/SOURCES.txt'
+[2.884s] writing manifest file 'omo_r1mini_navigation2.egg-info/SOURCES.txt'
+[2.922s] running build_ext
+[2.923s] Creating /home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages/omo-r1mini-navigation2.egg-link (link to .)
+[2.924s] 
+[2.924s] Installed /home/choi/marker_ws/build/omo_r1mini_navigation2
+[2.924s] running install_data
+[3.245s] Invoked command in '/home/choi/marker_ws/build/omo_r1mini_navigation2' returned '0': PYTHONPATH=/home/choi/marker_ws/build/omo_r1mini_navigation2/prefix_override:/home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/choi/marker_ws/build/omo_r1mini_navigation2/build --no-deps install_data

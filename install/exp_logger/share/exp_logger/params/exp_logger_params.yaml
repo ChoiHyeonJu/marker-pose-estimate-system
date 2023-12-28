@@ -1,0 +1,19 @@
+exp_logger:
+  ros__parameters:
+    show_plot: False
+    cmd_vel_topic: "/cmd_vel"
+    # odom_topic: "/omo_rob/wheel_odom"
+    est_odom_topic: "/fix_perception_node/marker_odom"
+    gt_odom_topic: "/fix_perception_node/gt_marker_odom"
+    deactivate_topic: "/deactivate"
+    mov_joint_states_topic: "/mov_control_node/joint_states"
+    fix_joint_states_topic: "/fix_control_node/joint_states"
+    mov_marker_detect_topic: "/mov_aruco_node/marker_detect"
+    cmd_period: 0.1 # sec
+    linear_vel: 0.10
+
+    # circle_rad: 0.6  # If 0.0, line_dist is used
+    circle_rad: 0.0  # If 0.0, line_dist is used
+    line_dist: 2.4
+    # line_dist: 1.8
+    # line_dist: 0.6

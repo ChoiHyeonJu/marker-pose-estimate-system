@@ -1,0 +1,79 @@
+[0.443s] Invoking command in '/home/choi/marker_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_view
+[0.850s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.853s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.853s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.939s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.236s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.243s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.682s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[2.964s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.987s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.990s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.991s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/image_pipeline-foxy/image_view/include
+[2.991s] -- Configured cppcheck exclude dirs and/or files: 
+[2.993s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.994s] -- Configured cpplint exclude dirs and/or files: 
+[2.995s] -- Added test 'lint_cmake' to check CMake code style
+[2.998s] -- Added test 'uncrustify' to check C / C++ code style
+[2.998s] -- Configured uncrustify additional arguments: 
+[2.998s] -- Added test 'xmllint' to check XML markup files
+[3.003s] -- Configuring done (2.5s)
+[3.268s] -- Generating done (0.2s)
+[3.272s] -- Build files have been written to: /home/choi/marker_ws/build/image_view
+[3.401s] Invoked command in '/home/choi/marker_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_view
+[3.404s] Invoking command in '/home/choi/marker_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_view -- -j12 -l12
+[3.533s] [  5%] [32m[1mLinking CXX shared library libimage_view_nodes.so[0m
+[4.750s] [ 36%] Built target image_view_nodes
+[4.775s] [ 42%] [32m[1mLinking CXX executable disparity_view[0m
+[4.779s] [ 47%] [32m[1mLinking CXX executable image_view[0m
+[4.781s] [ 52%] [32m[1mLinking CXX executable extract_images[0m
+[4.781s] [ 57%] [32m[1mLinking CXX executable image_saver[0m
+[4.797s] [ 63%] [32m[1mLinking CXX executable video_recorder[0m
+[4.810s] [ 68%] [32m[1mLinking CXX executable stereo_view[0m
+[6.946s] [ 73%] Built target image_view
+[7.140s] [ 78%] Built target disparity_view
+[7.261s] [ 84%] Built target stereo_view
+[7.306s] [ 89%] Built target video_recorder
+[7.366s] [ 94%] Built target image_saver
+[7.443s] [100%] Built target extract_images
+[7.489s] Invoked command in '/home/choi/marker_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_view -- -j12 -l12
+[7.780s] Invoking command in '/home/choi/marker_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_view
+[7.842s] -- Install configuration: ""
+[7.842s] -- Execute custom install script
+[7.843s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[7.847s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/extract_images_node.hpp
+[7.852s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/image_saver_node.hpp
+[7.857s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/image_view_node.hpp
+[7.862s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[7.873s] -- Symlinking: /home/choi/marker_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[7.878s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/library_path.sh
+[7.885s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/library_path.dsv
+[7.890s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/libimage_view_nodes.so
+[7.898s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/disparity_view
+[7.915s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/image_view
+[7.920s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/stereo_view
+[7.925s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/extract_images
+[7.930s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/image_saver
+[7.934s] -- Symlinking: /home/choi/marker_ws/install/image_view/lib/image_view/video_recorder
+[7.939s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[7.944s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[7.949s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[7.954s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[7.959s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/path.sh
+[7.964s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/environment/path.dsv
+[7.969s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/local_setup.bash
+[7.973s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/local_setup.sh
+[7.978s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/local_setup.zsh
+[7.985s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/local_setup.dsv
+[7.990s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/package.dsv
+[7.995s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[8.000s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[8.005s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.010s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.015s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[8.019s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[8.024s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[8.029s] -- Symlinking: /home/choi/marker_ws/install/image_view/share/image_view/package.xml
+[8.046s] Invoked command in '/home/choi/marker_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_view

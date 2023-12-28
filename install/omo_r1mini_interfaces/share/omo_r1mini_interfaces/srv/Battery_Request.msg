@@ -1,0 +1,1 @@
+/home/choi/marker_ws/build/omo_r1mini_interfaces/rosidl_cmake/srv/Battery_Request.msg

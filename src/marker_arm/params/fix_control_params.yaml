@@ -1,0 +1,22 @@
+# https://emanual.robotis.com/docs/en/dxl/x/xw430-t333/#drive-mode
+fix_control_node:
+  ros__parameters:
+    exp_deactivation: true
+    # period_tf2_ms: 30  # ms (int)
+    period_tf2_ms: 5  # ms (int)
+    yaw_enable_torque: true
+    pitch_enable_torque: true
+
+    joint_err_states_topic: "/fix_perception_node/joint_err_states"
+
+    pitch_init_ang: -0.2 # rad (double)
+
+    dynamixel_port: "/dev/ttyUSB0"
+
+    min_control_gain: 0.30
+    max_control_gain: 0.35
+    yaw_max_ang_err: 0.52
+    pitch_max_ang_err: 0.39
+    # max_up_pitch_ang: 0.1
+    max_up_pitch_ang: 1.4
+    min_down_pitch_ang: -0.78

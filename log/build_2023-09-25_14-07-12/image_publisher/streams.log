@@ -1,0 +1,96 @@
+[0.480s] Invoking command in '/home/choi/marker_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_publisher -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_publisher
+[0.860s] -- The C compiler identification is GNU 9.4.0
+[1.355s] -- The CXX compiler identification is GNU 9.4.0
+[1.545s] -- Detecting C compiler ABI info
+[1.805s] -- Detecting C compiler ABI info - done
+[1.817s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.841s] -- Detecting C compile features
+[1.842s] -- Detecting C compile features - done
+[1.892s] -- Detecting CXX compiler ABI info
+[1.999s] -- Detecting CXX compiler ABI info - done
+[2.019s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.019s] -- Detecting CXX compile features
+[2.020s] -- Detecting CXX compile features - done
+[2.089s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.395s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.396s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.821s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.281s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.431s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.822s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.826s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.394s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.676s] -- Looking for pthread_create in pthreads
+[7.793s] -- Looking for pthread_create in pthreads - not found
+[7.793s] -- Looking for pthread_create in pthread
+[7.861s] -- Looking for pthread_create in pthread - found
+[7.862s] -- Found Threads: TRUE  
+[9.981s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[10.265s] -- Found OpenCV: /usr/local (found version "4.6.0") found components: core imgcodecs videoio 
+[10.265s] -- opencv version 4.6.0
+[10.563s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.635s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.637s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.637s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/image_pipeline-foxy/image_publisher/include
+[10.637s] -- Configured cppcheck exclude dirs and/or files: 
+[10.639s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.639s] -- Configured cpplint exclude dirs and/or files: 
+[10.640s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.641s] -- Added test 'lint_cmake' to check CMake code style
+[10.642s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.644s] -- Added test 'uncrustify' to check C / C++ code style
+[10.644s] -- Configured uncrustify additional arguments: 
+[10.645s] -- Added test 'xmllint' to check XML markup files
+[10.649s] -- Configuring done (10.1s)
+[13.074s] -- Generating done (2.4s)
+[13.104s] -- Build files have been written to: /home/choi/marker_ws/build/image_publisher
+[13.132s] Invoked command in '/home/choi/marker_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/image_pipeline-foxy/image_publisher -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/image_publisher
+[13.133s] Invoking command in '/home/choi/marker_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_publisher -- -j12 -l12
+[13.365s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[29.151s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[29.787s] [ 50%] Built target image_publisher
+[29.935s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[36.794s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[40.835s] /usr/bin/ld: warning: libopencv_calib3d.so.4.2, needed by /opt/ros/foxy/lib/libimage_geometry.so, may conflict with libopencv_calib3d.so.406
+[40.852s] [100%] Built target image_publisher_node
+[40.885s] Invoked command in '/home/choi/marker_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/image_publisher -- -j12 -l12
+[41.464s] Invoking command in '/home/choi/marker_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_publisher
+[42.013s] -- Install configuration: ""
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/include
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/include/image_publisher
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/include/image_publisher/visibility.h
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[42.014s] -- Installing: /home/choi/marker_ws/install/image_publisher/lib/libimage_publisher.so
+[42.015s] -- Set runtime path of "/home/choi/marker_ws/install/image_publisher/lib/libimage_publisher.so" to ""
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[42.015s] -- Set runtime path of "/home/choi/marker_ws/install/image_publisher/lib/image_publisher/image_publisher_node" to ""
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/launch
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[42.015s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[42.016s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/package.dsv
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.017s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.018s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[42.018s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[42.018s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[42.018s] -- Installing: /home/choi/marker_ws/install/image_publisher/share/image_publisher/package.xml
+[42.057s] Invoked command in '/home/choi/marker_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/image_publisher

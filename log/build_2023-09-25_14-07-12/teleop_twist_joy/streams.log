@@ -1,0 +1,116 @@
+[0.351s] Invoking command in '/home/choi/marker_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/teleop_twist_joy-foxy -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/teleop_twist_joy
+[0.428s] -- The C compiler identification is GNU 9.4.0
+[0.485s] -- The CXX compiler identification is GNU 9.4.0
+[0.499s] -- Detecting C compiler ABI info
+[0.553s] -- Detecting C compiler ABI info - done
+[0.565s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.565s] -- Detecting C compile features
+[0.566s] -- Detecting C compile features - done
+[0.569s] -- Detecting CXX compiler ABI info
+[0.636s] -- Detecting CXX compiler ABI info - done
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.660s] -- Detecting CXX compile features - done
+[0.664s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.700s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.700s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.967s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.006s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.015s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.133s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.312s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.617s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.476s] -- Looking for pthread_create in pthreads
+[3.589s] -- Looking for pthread_create in pthreads - not found
+[3.590s] -- Looking for pthread_create in pthread
+[3.658s] -- Looking for pthread_create in pthread - found
+[3.659s] -- Found Threads: TRUE  
+[5.588s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[5.868s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[6.405s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[6.473s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[6.474s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[6.537s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[6.538s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[6.611s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[6.620s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.845s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.892s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.892s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.892s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.892s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.919s] -- Found PythonExtra: .so  
+[6.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.939s] -- Configured cppcheck include dirs: /home/choi/marker_ws/src/teleop_twist_joy-foxy/include
+[6.939s] -- Configured cppcheck exclude dirs and/or files: 
+[6.940s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.941s] -- Added test 'lint_cmake' to check CMake code style
+[6.942s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.943s] -- Added test 'xmllint' to check XML markup files
+[6.946s] -- Configuring done (6.6s)
+[6.950s] [33mCMake Warning (dev) at CMakeLists.txt:22 (add_library):
+[6.950s]   Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+[6.950s]   "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+[6.950s]   command to set the policy and suppress this warning.
+[6.950s] 
+[6.950s]   File:
+[6.950s] 
+[6.951s]     /home/choi/marker_ws/src/teleop_twist_joy-foxy/src/teleop_twist_joy.cpp
+[6.951s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.951s] [0m
+[6.968s] -- Generating done (0.0s)
+[6.970s] -- Build files have been written to: /home/choi/marker_ws/build/teleop_twist_joy
+[7.001s] Invoked command in '/home/choi/marker_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake /home/choi/marker_ws/src/teleop_twist_joy-foxy -DCMAKE_INSTALL_PREFIX=/home/choi/marker_ws/install/teleop_twist_joy
+[7.004s] Invoking command in '/home/choi/marker_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/teleop_twist_joy -- -j12 -l12
+[7.039s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[36.626s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[37.657s] [ 50%] Built target teleop_twist_joy
+[37.750s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[41.424s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[41.771s] [100%] Built target teleop_twist_joy_node
+[41.782s] Invoked command in '/home/choi/marker_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --build /home/choi/marker_ws/build/teleop_twist_joy -- -j12 -l12
+[41.886s] Invoking command in '/home/choi/marker_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/teleop_twist_joy
+[41.948s] -- Install configuration: ""
+[41.948s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[41.954s] -- Set runtime path of "/home/choi/marker_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[41.954s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[41.955s] -- Set runtime path of "/home/choi/marker_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+[41.955s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/include
+[41.955s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/include/teleop_twist_joy
+[41.956s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[41.956s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[41.956s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[41.956s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[41.956s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[41.957s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[41.958s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[41.959s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[41.959s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[41.959s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[41.959s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[41.959s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[41.960s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[41.961s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[41.961s] -- Installing: /home/choi/marker_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[41.979s] Invoked command in '/home/choi/marker_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/marker_ws/install/ros2_aruco:/home/choi/marker_ws/install/omo_r1mini_teleop:/home/choi/marker_ws/install/omo_r1mini_navigation2:/home/choi/marker_ws/install/omo_r1mini_bringup:/home/choi/marker_ws/install/exp_logger:/home/choi/marker_ws/install/camera_calibration:/opt/ros/foxy /home/choi/.local/bin/cmake --install /home/choi/marker_ws/build/teleop_twist_joy

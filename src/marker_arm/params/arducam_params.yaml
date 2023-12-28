@@ -1,0 +1,8 @@
+arducam_node:
+  ros__parameters:    
+    camera_name: "arducam"
+    frame_id: "camera"    
+    camera_info_url: "package://marker_arm/params/arducamera_info.yaml"
+    image_topic: "~/image_raw"
+    camera_info_topic: "~/camera_info"
+    

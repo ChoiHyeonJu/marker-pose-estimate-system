@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/choi/marker_ws/src/ros2_aruco-foxy/ros2_aruco_interfaces:msg/ArucoMarkers.msg"
+  ]
+}

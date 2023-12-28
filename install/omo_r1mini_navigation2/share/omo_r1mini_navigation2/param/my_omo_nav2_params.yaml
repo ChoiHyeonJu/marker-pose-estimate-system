@@ -1,0 +1,226 @@
+bt_navigator:
+  ros__parameters:
+    use_sim_time: false
+    global_frame: map
+    robot_base_frame: base_link
+    odom_topic: /odom
+    # default_bt_xml_filename: "navigate_w_replanning_and_recovery.xml"
+    default_bt_xml_filename: "/home/dhx/colcon_ws/src/omo_r1mini-foxy/omo_r1mini_navigation2/bt/pure_bt.xml"
+    plugin_lib_names:
+    - nav2_compute_path_to_pose_action_bt_node
+    - nav2_follow_path_action_bt_node
+    - nav2_back_up_action_bt_node
+    - nav2_spin_action_bt_node
+    - nav2_wait_action_bt_node
+    - nav2_clear_costmap_service_bt_node
+    - nav2_is_stuck_condition_bt_node
+    - nav2_goal_reached_condition_bt_node
+    - nav2_goal_updated_condition_bt_node
+    - nav2_initial_pose_received_condition_bt_node
+    # - nav2_reinitialize_global_localization_service_bt_node
+    - nav2_rate_controller_bt_node
+    - nav2_distance_controller_bt_node
+    - nav2_speed_controller_bt_node
+    - nav2_truncate_path_action_bt_node
+    - nav2_goal_updater_node_bt_node
+    - nav2_recovery_node_bt_node
+    - nav2_pipeline_sequence_bt_node
+    - nav2_round_robin_node_bt_node
+    - nav2_transform_available_condition_bt_node
+    - nav2_time_expired_condition_bt_node
+    - nav2_distance_traveled_condition_bt_node
+
+bt_navigator_rclcpp_node:
+  ros__parameters:
+    use_sim_time: false
+
+planner_server:
+  ros__parameters:
+    expected_planner_frequency: 1.0
+    use_sim_time: false
+    planner_plugins: ["GridBased"]
+
+    # GridBased:
+    #   plugin: "nav2_navfn_planner/NavfnPlanner"
+    #   tolerance: 0.5
+    #   use_astar: true
+    #   allow_unknown: true
+
+    GridBased:
+      plugin: "nav2_straightline_planner/StraightLine"
+      interpolation_resolution: 0.1
+
+
+controller_server:
+  ros__parameters:
+    use_sim_time: false
+    controller_frequency: 20.0
+    min_x_velocity_threshold: 0.01
+    min_theta_velocity_threshold: 0.01
+
+    odom_topic: "odom"
+    progress_checker_plugin: "progress_checker"
+    goal_checker_plugin: "goal_checker"
+    controller_plugins: ["FollowPath"]
+
+    # Progress checker parameters
+    progress_checker:
+      plugin: "nav2_controller::SimpleProgressChecker"
+      required_movement_radius: 0.2
+      movement_time_allowance: 500.0
+    # Goal checker parameters
+    goal_checker:
+      plugin: "nav2_controller::SimpleGoalChecker"
+      xy_goal_tolerance: 0.2
+      yaw_goal_tolerance: 3.14
+      stateful: True
+
+    # # # Proposed Approach
+    FollowPath:
+      plugin: "nav2_smart_pursuit_controller::SmartPursuitController"
+      lidar_use_filter: true
+      lidar_sample_step: 1
+      lidar_dist_gap_thres: 0.15 # meter
+      # lidar_idx_obs_gap_thres: 10
+      lidar_idx_obs_gap_thres: 5
+      lidar_idx_inf_gap_thres: 40
+
+      obs_safety_dist: 0.23  # obs_safety_dist > 1.5 * rob_rad
+
+
+      half_wheel_dist: 0.085
+      rob_rad: 0.15
+
+      # max_v: 0.6     # Can be changed
+      # max_v_dot: 1.5  # Must be the same as max_wheel_acceleration in libgazebo_ros_diff_drive.so
+      #                 # in the gazebo model plugin!!!
+      max_v: 0.5     # Can be changed
+      max_v_dot: 1.0  # Must be the same as max_wheel_acceleration in libgazebo_ros_diff_drive.so
+                      # in the gazebo model plugin!!!
+      max_w: -1.0      # max_v / half_wheel_separation
+      max_w_dot: -1.0  # max_v_dot / half_wheel_separation
+
+
+      # min_avoid_vel_scaler: 0.8
+      min_avoid_vel_scaler: 1.0
+
+      # min_no_obs_look_dist: 0.2
+      # max_no_obs_look_dist: 0.35
+      # max_obs_look_dist: 0.45
+
+      min_no_obs_look_dist: 0.4
+      max_no_obs_look_dist: 0.45
+      max_obs_look_dist: 0.55
+
+      obs_chk_dist: 0.6
+      path_follow_dist: 0.4
+      look_dist_scaler: 0.8
+      max_target_ang_thres: 1.57
+
+
+controller_server_rclcpp_node:
+  ros__parameters:
+    use_sim_time: false
+
+local_costmap:
+  local_costmap:
+    ros__parameters:
+      always_send_full_costmap: True
+
+      update_frequency: 5.0
+      publish_frequency: 2.0
+
+      global_frame: odom
+      robot_base_frame: base_link
+      use_sim_time: false
+      rolling_window: true
+      width: 10
+      height: 10
+      resolution: 0.05
+      robot_radius: 0.17
+
+      plugins: ["voxel_layer", "inflation_layer"]
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        enabled: true
+        cost_scaling_factor: 3.0
+        inflation_radius: 0.17 # // >= max_lookahead_dist
+
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"
+        enabled: true
+        observation_sources: scan
+        scan:
+          topic: /scan
+          data_type: "LaserScan"
+          max_obstacle_height: 2.0 # Must be higher than the distance from floor -> sensor dist (2D scanner)
+          clearing: true
+          marking: true
+          inf_is_valid: false
+          obstacle_range: 10.0  # Not obstacle_max_range !!!! It was a bug! check '>> rqt'
+          raytrace_range: 12.0  # From 'rqt' configuration plugin, you can check all parameters!!!
+
+  local_costmap_client:
+    ros__parameters:
+      use_sim_time: false
+  local_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: false
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+
+      # [from] without a map
+      width: 10
+      height: 10
+      lethal_cost_threshold: 250
+      origin_x: -5.0
+      origin_y: -5.0
+      # [to] without a map
+
+      always_send_full_costmap: true
+      update_frequency: 1.0
+      publish_frequency: 1.0
+
+      global_frame: map
+      robot_base_frame: base_link
+      use_sim_time: false
+      robot_radius: 0.17
+
+      resolution: 0.05
+
+      plugins: ["obstacle_layer", "inflation_layer"] # Order of the layers matters!!!!
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: True
+        combination_method: 0
+        observation_sources: scan
+        scan:
+          topic: /scan
+          data_type: "LaserScan"
+          max_obstacle_height: 2.0 # Must be higher than the distance from floor -> sensor dist (2D scanner)
+          obstacle_range: 5.0 # Check rqt!!! website has old param name!!!
+          raytrace_range: 6.0 # Check rqt!!! website has old param name!!!
+          clearing: True
+          marking: True
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        enabled: True
+        cost_scaling_factor: 3.0
+        inflation_radius: 0.17
+
+  global_costmap_client:
+    ros__parameters:
+      use_sim_time: false
+  global_costmap_rclcpp_node:
+    ros__parameters:
+      use_sim_time: false
+
+planner_server_rclcpp_node:
+  ros__parameters:
+    use_sim_time: false
+
+robot_state_publisher:
+  ros__parameters:
+    use_sim_time: false

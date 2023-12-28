@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/FromLL.srv",
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/GetState.srv",
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/SetDatum.srv",
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/SetPose.srv",
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/ToggleFilterProcessing.srv",
+    "/home/choi/marker_ws/src/robot_localization-foxy-devel:srv/ToLL.srv"
+  ]
+}

@@ -1,0 +1,44 @@
+running egg_info
+creating ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info
+writing ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/dependency_links.txt
+writing entry points to ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/entry_points.txt
+writing requirements to ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/requires.txt
+writing top-level names to ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/top_level.txt
+writing manifest file '../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/choi/marker_ws/build/omo_r1mini_navigation2/build
+creating /home/choi/marker_ws/build/omo_r1mini_navigation2/build/lib
+creating /home/choi/marker_ws/build/omo_r1mini_navigation2/build/lib/omo_r1mini_navigation2
+copying omo_r1mini_navigation2/__init__.py -> /home/choi/marker_ws/build/omo_r1mini_navigation2/build/lib/omo_r1mini_navigation2
+running install
+running install_lib
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages/omo_r1mini_navigation2
+copying /home/choi/marker_ws/build/omo_r1mini_navigation2/build/lib/omo_r1mini_navigation2/__init__.py -> /home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages/omo_r1mini_navigation2
+byte-compiling /home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages/omo_r1mini_navigation2/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/ament_index
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/ament_index/resource_index
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/ament_index/resource_index/packages
+copying resource/omo_r1mini_navigation2 -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/ament_index/resource_index/packages
+copying package.xml -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch
+copying launch/navigation2_rviz.launch.py -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch
+copying launch/omo_navi.launch.py -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch
+copying launch/omo_full.launch.py -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch
+copying launch/navigation2.launch.py -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/launch
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/param
+copying param/omo_r1mini.yaml -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/param
+copying param/my_omo_nav2_params.yaml -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/param
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/bt
+copying bt/pure_bt.xml -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/bt
+creating /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/rviz
+copying rviz/tb3_navigation2.rviz -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/rviz
+copying rviz/nav2_default_view.rviz -> /home/choi/marker_ws/install/omo_r1mini_navigation2/share/omo_r1mini_navigation2/rviz
+running install_egg_info
+Copying ../../../build/omo_r1mini_navigation2/omo_r1mini_navigation2.egg-info to /home/choi/marker_ws/install/omo_r1mini_navigation2/lib/python3.8/site-packages/omo_r1mini_navigation2-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/choi/marker_ws/build/omo_r1mini_navigation2/install.log'
